@@ -1,0 +1,62 @@
+Index	Impact Education	Impact Money	Impact Social	Impact Happiness	Impact Health	Story	Image	Image	Image	Choice1	Destination1	Choice2	Destination2	Choice 3	Destination3	Choice 4	Destination4	check Education	Check Money	Check Social	Check Happiness	Check Health
+0	30	50	40	60	80	Let's picture this for you, it's your first day at a brand new high school. You're a Freshman and have absolutely no idea what you want to do. But that's okay, everyone has to start somewhere. Just go throughout the first day of school as you normally would, there are no wrong answers.	IMG/dog.jpg			Continue	1											
+1	0	0	0	0	0	This school has 7 different periods for you to work with, 6 for classes, 1 for lunch. You have no idea who anyone is at the school, so maybe you should try talking to some people! Do you try to talk to anyone throughout the first school day?	asdafh			Yes	2	No	3									
+2	0	0	5	0	0	You tried talking to some different people in your classes, although not a lot of people had much to say. Good effort regardless!	a			Continue	4											
+3	0	0	0	0	0	You avoided talking to anyone today. Probably no big deal, not a lot of people want to talk first day anyway!	a			Continue	4											
+4	0	0	0	0	0	The first week of school is always pretty boring, no teacher ever wants to start anything then. Sadly, one of those teacher's didn't get the memo and already gave you homework! It's due soon, do you want to try it?	a			Yes	5	No	6									
+5	2.5	0	0	0	0	You decided to just get the homework out of the way, it wasn't that bad anyway.	a			Continue	7											
+6	0	0	0	0	0	Yeah, there's no way you're going to do homework the first week. You can handle it later!	a			Continue	8											
+7	0	0	0	5	0	Good news for you, that teacher wanted to see the homework the next day! You're already on top of things!	a			Continue	9											
+8	0	0	0	-5	0	Ouch, turns out you needed the homework the NEXT day, so you guess that plan wasn't the, huh?	a			Continue	10											
+9	0	0	0	0	0	The day was pretty uneventful beyond that, and so was the rest of this week. Good first week at school!	a			Continue	11											
+10	0	0	0	0	0	Despite that little rough start, you managed to get through the day just fine, the rest of the week too. Here's to a better next week!	a			Continue	11											
+11	0	0	0	0	0	It's finally the weekend and it's a nice day out right now, should you go outside? You've got nothing better to do right now.	a			Yes	12	No	13									
+12	0	0	0	5	5	It was really nice out and you had a nice walk in the park! You feel a lot better after that.	a			Continue	14											
+13	0	0	0	0	-5	Eh, it's nice inside too, no need to go out today. There will be another nice day!	a			Continue	14											
+14	0	0	0	0	0	Alright, it's time for another school week! You got your first batch of assignments by the end of the day. There are 3 assignments, each due Wednesday. How much time do you spend working on them?	a			Get them all done tonight	15	Get two of them done tonight	16	Just do one of them tonight	17	None of them! I'd rather go hang out with one of my old friends today.	18					
+15	10	0	0	-5	0	That was incredibly boring, but at least they're done! All of tomorrow is available to you now!	a			Continue	19											
+16	5	0	0	-2.5	0	That's most of them done, you can finish the other one tomorrow! Now you can relax for the rest of the night.	a			Continue	20											
+17	2.5	0	0	0	0	You can do one each day, no need to rush through everything in one day. Save some time for yourself!	a			Continue	20											
+18	0	0	0	2.5	0	Absolutely no way are you doing all of those today, you can worry about it all later. No big deal, you'll be 100% fine. Just enjoy yourself today!	a			Continue	21											
+19	0	0	0	0	0	Another day to spend at school, it's always the best. Although you already finished all your work, so you've got some extra time today. You have one class you could spend your lunch in, do you want to?	a			Yes	22	No	23									
+20	0	0	0	0	0	It's another great day at school, although you still have some more work to worry about. Maybe during your lunch you should deal with it. Do you want to finish up the work now?	a			Yes	24	No	25									
+21	0	0	0	0	0	After getting to school again, maybe it wasn't such a good idea to ignore all of those assignments. You could work on them during lunch, although you'd probably only be able to finish 2. Do you want to work on them now?	a			Yes	26	No	27									
+22	0	0	5	5	0	You end up having a decent conversation with your teacher and you end up finding out they run a club later in year. Maybe you'll get the chance to join! 	a			Continue	28											
+23	0	0	0	0	0	Not a big need to talk to any of your teachers yet, it's still super early in the year. 	a			Continue												
+24	2.5	0	0	-2.5	-2.5	Now you've done that work, you can relax when you get home today. Good job!	a			Continue												
+25							a															
+26							a															
+27							a															
+28							a															
+29							a															
+30							a															
+31							a															
+32							a															
+33							a															
+34							a															
+35							a															
+36							a															
+37							a															
+38																						
+49																						
+40																						
+41																						
+42																						
+43																						
+44																						
+45																						
+46																						
+47																						
+48																						
+49																						
+50																						
+51																						
+52																						
+53																						
+54																						
+55																						
+56																						
+57																						
+58																						
+59																						
+60																						
