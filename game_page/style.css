@@ -1,147 +1,170 @@
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
-body {
-  overflow: hidden;
-}
 
-z*, *::before, *::after {
-  box-sizing: border-box;
-  
+body {
+    overflow: hidden;
+    background-image: url("chalkboard.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .container {
-  font-family: 'Bakbak One', cursive;
-  color: black;
-  text-align: center;
-  width: 800px;
-  max-width: 90x%;
-  font-size: 36px;
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px 2px;
-  align-items: center;
-  margin: 0;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  align-content: center;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    font-family: 'Bakbak One', cursive;
+    color: black;
+    text-align: center;
+    width: 800px;
+    max-width: 90x%;
+    font-size: 36px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    align-content: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /* New Menu Bar, DO NOT DELETE */
 .header {
-  padding: 10px 16px; 
-  background: #4C4C6D; 
-  color: white; 
-  text-align: center; 
-  position: sticky;
-  top: 0;
-  
- 
+    padding: 10px 16px;
+    background: #4C4C6D;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 .content {
-  padding: 16px; 
+    padding: 16px;
 }
 
 .nav {
-  text-decoration: none; 
-  color: white; 
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: .1em; 
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .1em;
 }
 
 .top-container {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
 }
 
 .nav:hover {
-  text-shadow:
-    0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 15px #89D2DC,
-    0 0 40px #89D2DC,
-    0 0 80px #89D2DC;
-}
-
-#option_buttons {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
+    text-shadow:
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 15px #89D2DC,
+        0 0 40px #89D2DC,
+        0 0 80px #89D2DC;
 }
 
 .row-btn {
-text-align: center;
-justify-content: center;
-position: absolute;
-top: 50%;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
 }
 
 .column-btn {
-  width: 150px;
-  height: 50px;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
-  outline: none;
+    width: 150px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
 }
 
-
 .buttons {
-  width: 47%;
-  font-size: 24px;
-  padding: 15px 25px; 
-  outline: none;
-  background-color: #2F80ED;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  color: #fff;
-  text-align: center;
-  margin: 15px;
-  background-image: linear-gradient(315deg, #2F80ED 0%, #B2FFDA 74%);
-  z-index: 1;
+    width: 47%;
+    font-size: 24px;
+    padding: 15px 25px;
+    outline: none;
+    background-color: #696953;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    background-image: linear-gradient(315deg, #333331 0%, #2e2e20 74%);
+    z-index: 1;
 }
 
 .buttons:after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  border-radius: 5px;
-  background-color: #4dccc6;
-  background-image: linear-gradient(315deg, #2F80ED 0%, #B2FFDA 74%);
-  box-shadow:
-   -7px -7px 20px 0px #fff9,
-   -4px -4px 5px 0px #fff9,
-   7px 7px 20px 0px #0002,
-   4px 4px 5px 0px #0001;
-  transition: all 0.3s ease;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #4dccc6;
+    background-image: linear-gradient(315deg, #333331 0%, #2e2e20 74%);
+    box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
 }
 
 .buttons:hover {
-  color: #fff;
+    color: #fff;
 }
+
 .buttons:hover:after {
-  top: 0;
-  height: 100%;
+    top: 0;
+    height: 100%;
 }
+
 .buttons:active {
-  top: 2px;
+    top: 2px;
+}
+
+#option_buttons {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+
+  body {
+    overflow: visible;
+  }
+  .container {
+    width: 200px;
+    font-size: 13px;
+    border-radius: 5px;
+    align-items: center;
+    margin: 0;
+    transform:  translate(-50%, -10%);
+}
+
+  .buttons {
+    font-size: 18px;
+    padding: 15px 25px;
+    margin: 10px;
+    size: 20%;
+    transform:  translate(-5%, 175%);
+}
+
 }

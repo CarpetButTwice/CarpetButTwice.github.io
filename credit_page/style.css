@@ -95,3 +95,10 @@ body {
   30% {left: 100vw;}
   100% {left: 100vw;}
 }
+
+@media only screen and (max-width: 650px) { 
+  #right, #left{
+    font-size: 1em;
+    height: 100%;
+  }
+}
