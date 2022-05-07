@@ -1,0 +1,125 @@
+body {
+    overflow: hidden;
+}
+
+/* ANIMATION FOR CREDITS */
+#left {
+    line-height: 100vh;
+    position: absolute;
+    width: 50%;
+    background-color: black;
+    color: white;
+    height: 100%;
+    overflow: hidden;
+    font-size: 3em;
+}
+
+#right {
+    position: absolute;
+    width: 50vw;
+    color: black;
+    line-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 3em;
+    left: 50vw;
+}
+
+#button {
+    position: absolute;
+    top: 0px;
+    left: 0vw;
+    width: 100vw;
+    height: 100vw;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+}
+
+.r_text,
+.l_text {
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-duration: 16s;
+    width: 50vw;
+    text-align: center;
+}
+
+.r_text {
+    right: 100vw;
+    animation-name: animate_right;
+}
+
+.l_text {
+    left: 100vw;
+    animation-name: animate_left;
+}
+
+#l_second {
+    animation-delay: 4s;
+}
+
+#l_third {
+    animation-delay: 8s;
+}
+
+#r_second {
+    animation-delay: 4s;
+}
+
+#r_third {
+    animation-delay: 8s;
+}
+
+@keyframes animate_left {
+    0% {
+        left: 50vw;
+    }
+
+    10% {
+        left: 0vw;
+    }
+
+    20% {
+        left: 0vw;
+    }
+
+    30% {
+        left: -100vw;
+    }
+
+    100% {
+        left: -100vw;
+    }
+}
+
+@keyframes animate_right {
+    0% {
+        left: -50vw;
+    }
+
+    10% {
+        left: 0vw;
+    }
+
+    20% {
+        left: 0vw;
+    }
+
+    30% {
+        left: 100vw;
+    }
+
+    100% {
+        left: 100vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    #right,
+    #left {
+        font-size: 1em;
+        height: 100%;
+    }
+}
